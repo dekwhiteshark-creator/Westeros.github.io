@@ -68,9 +68,11 @@ body, html {
     background-size: 140% 140%;
   }
 }
-
-
-
+@media (max-width: 480px) {
+    .page {
+        padding: 30px 24px;
+    }
+}
 /* Container */
 .container {
   text-align: center;
@@ -171,4 +173,5 @@ body, html {
   color: #ffffff;
   font-size: 20px;
   opacity: 0.8;
+
 }
